@@ -1,0 +1,29 @@
+[
+  {
+    "model": "api_dog_manager.dogsize",
+    "pk": 1,
+    "fields": {
+      "name": "Chico",
+      "created_at": null,
+      "updated_at": null
+    }
+  },
+  {
+    "model": "api_dog_manager.dogsize",
+    "pk": 2,
+    "fields": {
+      "name": "Mediano",
+      "created_at": null,
+      "updated_at": null
+    }
+  },
+  {
+    "model": "api_dog_manager.dogsize",
+    "pk": 3,
+    "fields": {
+      "name": "Grande",
+      "created_at": null,
+      "updated_at": null
+    }
+  }
+]

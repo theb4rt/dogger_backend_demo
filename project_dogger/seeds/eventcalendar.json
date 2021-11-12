@@ -1,0 +1,36 @@
+[
+  {
+    "model": "api_dog_manager.eventcalendar",
+    "pk": 1,
+    "fields": {
+      "day": "2021-11-10",
+      "start_time": "01:00:00",
+      "end_time": "02:00:00",
+      "notes": null,
+      "walker_id": 1
+    }
+  },
+  {
+    "model": "api_dog_manager.eventcalendar",
+    "pk": 2,
+    "fields": {
+      "day": "2021-11-10",
+      "start_time": "04:00:00",
+      "end_time": "05:00:00",
+      "notes": null,
+      "walker_id": 2
+    }
+  },
+  {
+    "model": "api_dog_manager.eventcalendar",
+    "pk": 3,
+    "fields": {
+      "day": "2021-11-10",
+      "start_time": "06:00:00",
+      "end_time": "07:00:00",
+      "notes": null,
+      "walker_id": 2
+    }
+  }
+]
+

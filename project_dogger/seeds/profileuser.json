@@ -1,0 +1,42 @@
+[
+  {
+    "model": "api_login.profileuser",
+    "pk": 1,
+    "fields": {
+      "user_id": 2,
+      "profile_id": 1,
+      "created_at": null,
+      "updated_at": null
+    }
+  },
+  {
+    "model": "api_login.profileuser",
+    "pk": 2,
+    "fields": {
+      "user_id": 4,
+      "profile_id": 2,
+      "created_at": null,
+      "updated_at": null
+    }
+  },
+  {
+    "model": "api_login.profileuser",
+    "pk": 3,
+    "fields": {
+      "user_id": 5,
+      "profile_id": 2,
+      "created_at": null,
+      "updated_at": null
+    }
+  },
+  {
+    "model": "api_login.profileuser",
+    "pk": 4,
+    "fields": {
+      "user_id": 3,
+      "profile_id": 1,
+      "created_at": null,
+      "updated_at": null
+    }
+  }
+]

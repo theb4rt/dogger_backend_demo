@@ -1,0 +1,22 @@
+[
+  {
+    "model": "api_login.profiles",
+    "pk": 1,
+    "fields": {
+      "profile_name": "client",
+      "status": true,
+      "created_at": "2021-11-10",
+      "updated_at": "2021-11-10"
+    }
+  },
+  {
+    "model": "api_login.profiles",
+    "pk": 2,
+    "fields": {
+      "profile_name": "walker",
+      "status": true,
+      "created_at": "2021-11-10",
+      "updated_at": "2021-11-10"
+    }
+  }
+]

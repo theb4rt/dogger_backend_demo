@@ -1,0 +1,82 @@
+[
+  {
+    "model": "api_login.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$Tu5N3b2dj8iu02iBemuQqQ$P3BMdOztq3lqnWIk21gpnfOVxK41QZ/B21X5luh95MA=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "b4rt",
+      "email": "admin@b4rt.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-11-10 06:00:26.020322",
+      "first_name": null,
+      "last_name": null
+    }
+  },
+  {
+    "model": "api_login.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$Tu5N3b2dj8iu02iBemuQqQ$P3BMdOztq3lqnWIk21gpnfOVxK41QZ/B21X5luh95MA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "homero",
+      "email": "homero@b4rt.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-11-10 06:00:26.020322",
+      "first_name": null,
+      "last_name": null
+    }
+  },
+  {
+    "model": "api_login.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$Tu5N3b2dj8iu02iBemuQqQ$P3BMdOztq3lqnWIk21gpnfOVxK41QZ/B21X5luh95MA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "lisa",
+      "email": "lisa@b4rt.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-11-10 06:00:26.020322",
+      "first_name": null,
+      "last_name": null
+    }
+  },
+  {
+    "model": "api_login.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$Tu5N3b2dj8iu02iBemuQqQ$P3BMdOztq3lqnWIk21gpnfOVxK41QZ/B21X5luh95MA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "marge",
+      "email": "marge@b4rt.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-11-10 06:00:26.020322",
+      "first_name": null,
+      "last_name": null
+    }
+  },
+  {
+    "model": "api_login.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$Tu5N3b2dj8iu02iBemuQqQ$P3BMdOztq3lqnWIk21gpnfOVxK41QZ/B21X5luh95MA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "maggie",
+      "email": "maggie@b4rt.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-11-10 06:00:26.020322",
+      "first_name": null,
+      "last_name": null
+    }
+  }
+]

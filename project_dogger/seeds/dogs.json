@@ -1,0 +1,90 @@
+[
+  {
+    "model": "api_dog_manager.dogs",
+    "pk": 1,
+    "fields": {
+      "dog_name": "perro1",
+      "created_at": null,
+      "updated_at": null,
+      "dogsize_id": 1,
+      "person_id": 2
+    }
+  },
+  {
+    "model": "api_dog_manager.dogs",
+    "pk": 2,
+    "fields": {
+      "dog_name": "perro2",
+      "created_at": null,
+      "updated_at": null,
+      "dogsize_id": 2,
+      "person_id": 2
+    }
+  },
+  {
+    "model": "api_dog_manager.dogs",
+    "pk": 3,
+    "fields": {
+      "dog_name": "perro4",
+      "created_at": null,
+      "updated_at": null,
+      "dogsize_id": 1,
+      "person_id": 2
+    }
+  },
+  {
+    "model": "api_dog_manager.dogs",
+    "pk": 4,
+    "fields": {
+      "dog_name": "perro6",
+      "created_at": null,
+      "updated_at": null,
+      "dogsize_id": 3,
+      "person_id": 3
+    }
+  },
+  {
+    "model": "api_dog_manager.dogs",
+    "pk": 5,
+    "fields": {
+      "dog_name": "perro3",
+      "created_at": null,
+      "updated_at": null,
+      "dogsize_id": 2,
+      "person_id": 2
+    }
+  },
+  {
+    "model": "api_dog_manager.dogs",
+    "pk": 6,
+    "fields": {
+      "dog_name": "perro5",
+      "created_at": null,
+      "updated_at": null,
+      "dogsize_id": 3,
+      "person_id": 3
+    }
+  },
+  {
+    "model": "api_dog_manager.dogs",
+    "pk": 7,
+    "fields": {
+      "dog_name": "perro7",
+      "created_at": null,
+      "updated_at": null,
+      "dogsize_id": 1,
+      "person_id": 3
+    }
+  },
+  {
+    "model": "api_dog_manager.dogs",
+    "pk": 8,
+    "fields": {
+      "dog_name": "perro8",
+      "created_at": null,
+      "updated_at": null,
+      "dogsize_id": 3,
+      "person_id": 3
+    }
+  }
+]

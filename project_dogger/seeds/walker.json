@@ -1,0 +1,20 @@
+[
+  {
+    "model": "api_dog_manager.walker",
+    "pk": 1,
+    "fields": {
+      "created_at": null,
+      "updated_at": null,
+      "user_id": 4
+    }
+  },
+  {
+    "model": "api_dog_manager.walker",
+    "pk": 2,
+    "fields": {
+      "created_at": null,
+      "updated_at": null,
+      "user_id": 5
+    }
+  }
+]
