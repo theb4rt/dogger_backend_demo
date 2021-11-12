@@ -1,4 +1,4 @@
-"""Config file for development l00dy_b4rt"""
+"""Config file for development b4rt"""
 # config/settings/develop.py
 import os
 from .common import *
@@ -14,6 +14,12 @@ ALLOWED_HOSTS = ['*']
 # Django Rest Framework CORS configuration
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
+
+CORS_ALLOWED_ORIGINS = [
+    "http://127.0.0.1:3000",
+    "http://localhost:3000",
+]
+
 
 #AWS ACCES KEYS
 AWS_ACCESS_KEY_ID = env('AWS_ACCESS_KEY_ID_DEV',default='secret_acces_key')

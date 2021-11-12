@@ -1,12 +1,11 @@
-from rest_framework import permissions, status
+from rest_framework import permissions
 from rest_framework.decorators import api_view, permission_classes
-from rest_framework.permissions import AllowAny, IsAuthenticated
-from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
 
-from api_login.serializers import UserSerializer
 import project_dogger.services.custom_response as custom_response
+from api_login.serializers import UserSerializer
 
 
 class CreateUserAPI:

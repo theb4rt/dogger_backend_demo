@@ -4,10 +4,9 @@ Created on 11/10/21
 @author: b4rt
 @mail: root.jmn@gmail.com
 """
+from django.contrib.auth import get_user_model
 from django.db import transaction
 from rest_framework import serializers
-from django.contrib.auth import get_user_model
-from rest_framework.fields import CharField
 from rest_framework.validators import UniqueValidator
 
 from api_login.models import Person, User, ProfileUser

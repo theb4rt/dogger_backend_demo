@@ -22,7 +22,7 @@ from project_dogger.services import custom_response
 class LoginViewSet(ModelViewSet, TokenObtainPairView):
     serializer_class = LoginSerializer
     permission_classes = (AllowAny,)
-    http_method_names = ['post']
+    http_method_names = ['post', 'options']
 
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)

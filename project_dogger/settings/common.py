@@ -59,7 +59,8 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-   # 'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -87,6 +88,7 @@ TEMPLATES = [
 ##CAMBIAR "project_b4rt por el nombre de la app"
 WSGI_APPLICATION = 'project_dogger.wsgi.application'
 
+
 # Database
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
 
@@ -101,7 +103,6 @@ REST_FRAMEWORK = {
     )
 }
 
-
 DATABASES = {
     'default': {
         'ENGINE': env('DB_ENGINE', default='django.db.backends.postgresql'),
@@ -114,7 +115,6 @@ DATABASES = {
 }
 # Password validation
 # https://docs.djangoproject.com/en/dev/ref/settings/#auth-password-validators
-
 
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -131,7 +131,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/dev/topics/i18n/
@@ -154,8 +153,6 @@ STATIC_URL = '/static/'
 FIXTURE_DIRS = [
     'project_dogger/seeds',
 ]
-
-
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field
